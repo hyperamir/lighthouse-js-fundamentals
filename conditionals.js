@@ -1,14 +1,12 @@
-const temp = 16;
+const isCitizen = true;
+const age = 26;
 
-
-if (temp <0){
-  console.log("Make sure to pick out your scarf.");
-}
-else if (temp <15){
-  console.log("Short sleeves won't cut it!");
-}
-else{
-  console.log("Short sleeves are fine.");
+if(isCitizen && age>18){
+  console.log("You are eligible for vote.");
 }
 
-console.log("Now you're ready to go outside.");
+const temp = 42;
+
+if(temp<-40 || temp>40){
+  console.log("It's not a good idea to go out.");
+}
